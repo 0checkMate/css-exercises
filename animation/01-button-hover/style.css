@@ -8,6 +8,7 @@
   font-family: Arial, sans-serif;
 }
 
+
 button {
   border-radius: 8px;
   border: none;
@@ -16,4 +17,17 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  animation: bubble 0.4s ease-out;
+  border-radius: 8px;
+  border: none;
+  background-color: #215bd8;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  padding: 16px 24px;
+  text-align: center;
+  scale: 1.3;
 }
